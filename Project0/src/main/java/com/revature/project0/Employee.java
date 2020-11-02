@@ -1,14 +1,15 @@
 package com.revature.project0;
 
-public class Employee extends User{
+public class Employee extends Customer{
 	private int employeeId;
 	
 	public Employee() {
 		super();
 	}
-	
-	public Employee(String firstName, String middleName, String lastName) {
-		super(firstName,middleName,lastName);
+
+	public Employee(int employeeId) {
+		super();
+		this.setEmployeeId(employeeId);
 	}
 
 	public int getEmployeeId() {
@@ -18,6 +19,12 @@ public class Employee extends User{
 	public void setEmployeeId(int employeeId) {
 		this.employeeId = employeeId;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + "]";
+	}
+	
 	
 	
 	
