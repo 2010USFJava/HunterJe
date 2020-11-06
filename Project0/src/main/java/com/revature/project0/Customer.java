@@ -14,12 +14,13 @@ public class Customer implements Serializable{
 	 */
 	private static final long serialVersionUID = -6203030530990934950L;
 	//basic info
-	private String Username;
-	private String Password;
 	private String firstName;
 	private String lastName;
-	Random acctNum = new Random();
+	private String address;
+	private String username;
+	private String password;
 	
+
 
 	public Customer() {
 		super();
@@ -27,62 +28,87 @@ public class Customer implements Serializable{
 		FileStuff.writeCustomerFile(Roster.customerList);
 	}
 
-	public Customer(String username, String password, String firstName, String lastName, Random acctNum) {
+
+	public Customer(String firstName, String lastName, String address, String username, String password) {
 		super();
-		Username = username;
-		Password = password;
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.acctNum = acctNum;
-		Roster.customerList.add(this);
+		this.address = address;
+		this.username = username;
+		this.password = password;
 		FileStuff.writeCustomerFile(Roster.customerList);
 		LogThis.LogIt("info", this.getFirstName() + " logged in successfully!");
 	}
 
-	public String getUsername() {
-		return Username;
-	}
 
-	public void setUsername(String username) {
-		Username = username;
-	}
-
-	public String getPassword() {
-		return Password;
-	}
-
-	public void setPassword(String password) {
-		Password = password;
-	}
 
 	public String getFirstName() {
 		return firstName;
 	}
 
+
+
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
+
+
 
 	public String getLastName() {
 		return lastName;
 	}
 
+
+
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
 
-	public Random getAcctNum() {
-		return acctNum;
+
+
+	public String getAddress() {
+		return address;
 	}
 
-	public void setAcctNum(Random acctNum) {
-		this.acctNum = acctNum;
+
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
+
+
+
+	public String getUsername() {
+		return username;
+	}
+
+
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+
+
+	public String getPassword() {
+		return password;
+	}
+
+
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
 
 	@Override
 	public String toString() {
-		return "Customer [Username=" + Username + ", Password=" + Password + ", firstName=" + firstName + ", lastName="
-				+ lastName + ", acctNum=" + acctNum + "]";
+		return "Customer [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", username="
+				+ username + ", password=" + password + "]";
 	}
+	
+	
 
 }
+	
+	

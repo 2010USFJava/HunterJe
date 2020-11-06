@@ -48,3 +48,13 @@
 [INFO ] 2020-10-31 15:59:26.902 [main] LogThis -  Your new balance is 
 [INFO ] 2020-10-31 15:59:41.522 [main] LogThis -  Your new balance is 
 [INFO ] 2020-10-31 16:02:08.580 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-04 21:40:57.291 [main] LogThis - Jennifer logged in successfully!
+[INFO ] 2020-11-04 21:40:57.300 [main] LogThis - Jennifer was added to customer database.
+[INFO ] 2020-11-04 22:51:20.636 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-04 22:51:55.294 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-04 22:52:04.997 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-04 22:52:30.285 [main] LogThis -  Your new balance is 50.0
+[INFO ] 2020-11-04 22:53:03.382 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-04 22:53:10.165 [main] LogThis -  Your new balance is 50.0
+[INFO ] 2020-11-04 22:57:19.758 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-04 22:57:28.154 [main] LogThis -  Your new balance is 250.0
