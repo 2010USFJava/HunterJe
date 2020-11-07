@@ -1,15 +1,21 @@
 package com.revature.menu;
 
 import java.util.Scanner;
+import java.util.ArrayList;
 
 import com.revature.project0.Customer;
 import com.revature.project0.Employee;
+import com.revature.project0.Login;
 import com.revature.services.BankMenu;
+import com.revature.services.JointAcct;
+import com.revature.util.FileStuff;
+import com.revature.util.Roster;
 
 public class MainMenu {
+
 	static Scanner scan = new Scanner(System.in);
-	
-	
+	static {FileStuff.readCustomerFile();}
+
 	public static void mainMenu() {
 		System.out.println("Welcome to the Hunter Credit Union!");
 		System.out.println("Please enter your slection from the options below:");
@@ -24,14 +30,14 @@ public class MainMenu {
 		case "C":
 			userLogin();
 			break;
-			case "E":
-				Employee.employeeLogin();
-				break;
+		case "E":
+			Employee.employeeLogin();
+			break;
 		case "A":
 			createNewCustomer();
 			break;
 		case "Q":
-			System.out.println("Thank you for using Hunter Credit Union!");
+			System.out.print("Thank you for using Hunter Credit Union!");
 			break;
 		default:
 			System.out.println("Invalid Entry. Please try again.");
@@ -45,7 +51,14 @@ public class MainMenu {
 		String username = scan.nextLine();
 		System.out.println("Enter Password:");
 		String password = scan.nextLine();
-		System.out.println("Login Successful");
+		//System.out.println("Login Successful");
+		if(Roster.findCustomerByUsername(username) != null && Roster.findCustomerByPassword(password) !=null) {
+			System.out.println("Successful Login!");
+		}else {
+			System.out.println("Invalid entry. Please try again.");
+			userLogin();
+		}
+		
 		System.out.println("Would you like to see your account information? (y/n)");
 		String choice = scan.nextLine();
 		if (choice.equalsIgnoreCase("y")) {
@@ -57,7 +70,7 @@ public class MainMenu {
 	}
 
 	public static void accountMenu() {
-		System.out.println("Current Balance is "+ BankMenu.balance);
+		System.out.println("Current Balance is " + BankMenu.balance);
 		System.out.println("Would you like to make a: ");
 		System.out.println("\n\t[D]eposit");
 		System.out.println("\t[T]ransfer Funds");
@@ -69,9 +82,9 @@ public class MainMenu {
 		case "D":
 			BankMenu.depositMenu();
 			break;
-//		case "T":
-//			BankMenu.transferMenu();
-//			break;
+		case "T":
+			BankMenu.transferMenu();
+			break;
 		case "W":
 			BankMenu.withdrawMenu();
 			break;
@@ -85,36 +98,44 @@ public class MainMenu {
 			break;
 		}
 	}
-		
 
 	public static void createNewCustomer() {
+		System.out.println("Would you like to make a: y/n");
+		System.out.println("\n\t[J]oint Account");
+		String choice = scan.nextLine();
+		if (choice.equalsIgnoreCase("y")) {
+			JointAcct.jointAcct();
+		} else if (choice.equalsIgnoreCase("n")) {
+			regularAcct();
+		}
+	}
+		public static void regularAcct() {
 		System.out.println("Enter your first name:");
 		String firstName = scan.nextLine();
-
 		System.out.println("Enter your last name:");
 		String lastName = scan.nextLine();
-		
 		System.out.println("Enter your address name:");
 		String address = scan.nextLine();
-
 		System.out.println("Create a username:");
 		String username = scan.nextLine();
-
 		System.out.println("Create a password:");
 		String password = scan.nextLine();
+		System.out.println("Please enter initial deposit:");
+		double balance = Double.parseDouble(scan.nextLine());
 
 		Customer a = new Customer(firstName, lastName, address, username, password);
-		System.out.println("Account created successfully, awaiting approval!");
+		Roster.customerList.add(a);
+		System.out.println(a.toString());	
 		
 		System.out.println("Would you like to see your account information? (y/n)");
 		String choice = scan.nextLine();
 		if (choice.equalsIgnoreCase("y")) {
-			accountMenu();
+			MainMenu.accountMenu();
 		} else if (choice.equalsIgnoreCase("n")) {
 			System.out.println("Returning to main menu.");
-			mainMenu();
+			MainMenu.mainMenu();
 		}
-
 	}
 
+	
 }

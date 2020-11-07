@@ -1,7 +1,6 @@
 package com.revature.project0;
 
 import java.io.Serializable;
-import java.util.Random;
 import java.util.Scanner;
 
 import com.revature.util.FileStuff;
@@ -9,6 +8,7 @@ import com.revature.util.LogThis;
 import com.revature.util.Roster;
 
 public class Customer implements Serializable{
+	static Scanner scan= new Scanner(System.in);
 	/**
 	 * 
 	 */
@@ -17,10 +17,10 @@ public class Customer implements Serializable{
 	private String firstName;
 	private String lastName;
 	private String address;
-	private String username;
-	private String password;
-	
+	protected String username;
+	protected String password;
 
+	
 
 	public Customer() {
 		super();
@@ -29,6 +29,7 @@ public class Customer implements Serializable{
 	}
 
 
+	@SuppressWarnings("static-access")
 	public Customer(String firstName, String lastName, String address, String username, String password) {
 		super();
 		this.firstName = firstName;
@@ -36,8 +37,9 @@ public class Customer implements Serializable{
 		this.address = address;
 		this.username = username;
 		this.password = password;
+		Roster.customerList.add(this);
 		FileStuff.writeCustomerFile(Roster.customerList);
-		LogThis.LogIt("info", this.getFirstName() + " logged in successfully!");
+		LogThis.LogIt("info", this.firstName + ", account created successfully. Awaiting approval!");
 	}
 
 
@@ -106,7 +108,6 @@ public class Customer implements Serializable{
 		return "Customer [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", username="
 				+ username + ", password=" + password + "]";
 	}
-	
 	
 
 }
