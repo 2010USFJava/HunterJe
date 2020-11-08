@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 import com.revature.project0.Customer;
 import com.revature.project0.Employee;
-import com.revature.project0.Login;
 import com.revature.services.BankMenu;
 import com.revature.services.JointAcct;
 import com.revature.util.FileStuff;
@@ -51,7 +50,6 @@ public class MainMenu {
 		String username = scan.nextLine();
 		System.out.println("Enter Password:");
 		String password = scan.nextLine();
-		//System.out.println("Login Successful");
 		if(Roster.findCustomerByUsername(username) != null && Roster.findCustomerByPassword(password) !=null) {
 			System.out.println("Successful Login!");
 		}else {
@@ -70,7 +68,7 @@ public class MainMenu {
 	}
 
 	public static void accountMenu() {
-		System.out.println("Current Balance is " + BankMenu.balance);
+		System.out.println("Current Balance is " + Customer.getBalance());
 		System.out.println("Would you like to make a: ");
 		System.out.println("\n\t[D]eposit");
 		System.out.println("\t[T]ransfer Funds");
@@ -101,7 +99,7 @@ public class MainMenu {
 
 	public static void createNewCustomer() {
 		System.out.println("Would you like to make a: y/n");
-		System.out.println("\n\t[J]oint Account");
+		System.out.println("\n\tJoint Account");
 		String choice = scan.nextLine();
 		if (choice.equalsIgnoreCase("y")) {
 			JointAcct.jointAcct();
@@ -123,7 +121,7 @@ public class MainMenu {
 		System.out.println("Please enter initial deposit:");
 		double balance = Double.parseDouble(scan.nextLine());
 
-		Customer a = new Customer(firstName, lastName, address, username, password);
+		Customer a = new Customer(firstName, lastName, address, username, password, balance);
 		Roster.customerList.add(a);
 		System.out.println(a.toString());	
 		

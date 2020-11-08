@@ -3,6 +3,7 @@ package com.revature.project0;
 import java.io.Serializable;
 import java.util.Scanner;
 
+import com.revature.services.SavingsAcct;
 import com.revature.util.FileStuff;
 import com.revature.util.LogThis;
 import com.revature.util.Roster;
@@ -19,6 +20,7 @@ public class Customer implements Serializable{
 	private String address;
 	protected String username;
 	protected String password;
+	private static double balance;
 
 	
 
@@ -30,20 +32,37 @@ public class Customer implements Serializable{
 
 
 	@SuppressWarnings("static-access")
-	public Customer(String firstName, String lastName, String address, String username, String password) {
+	public Customer(String firstName, String lastName, String address, String username, String password, double balance) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.address = address;
 		this.username = username;
 		this.password = password;
+		this.balance = balance;
 		Roster.customerList.add(this);
 		FileStuff.writeCustomerFile(Roster.customerList);
 		LogThis.LogIt("info", this.firstName + ", account created successfully. Awaiting approval!");
 	}
 
+	///// bank menu tests
+	public int deposit(double amount) {
+		balance = balance+amount;
+		return (int) balance;
+	}
+	
+	public int withdraw(double amount) {
+		balance = balance-amount;
+		return (int) balance;
+	}
+	
+	public int transfer(double amount) {
+		balance = balance-amount;
+		SavingsAcct.balance +=amount;
+		return (int) balance;
+	}
 
-
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -102,12 +121,22 @@ public class Customer implements Serializable{
 		this.password = password;
 	}
 
+	public static double getBalance() {
+		return balance;
+	}
+
+
+	public static void setBalance(double balance) {
+		Customer.balance = balance;
+	}
+
 
 	@Override
 	public String toString() {
 		return "Customer [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", username="
 				+ username + ", password=" + password + "]";
 	}
+	
 	
 
 }

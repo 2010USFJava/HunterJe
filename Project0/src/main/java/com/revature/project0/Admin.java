@@ -60,7 +60,7 @@ public class Admin extends Employee {
 		System.out.println("This account is pendng approval:");
 		String choice=scan.nextLine();
 		boolean approved = true;
-		if(choice.equals(approved)) {
+		if(choice.equals(choice)) {
 			System.out.println("Account has been approved. Customer will be notified.");
 		}else {
 			System.out.println("Account has been denied. Customer will be notified.");
@@ -69,15 +69,14 @@ public class Admin extends Employee {
 		String choice1=scan.nextLine();
 		if(choice1.equalsIgnoreCase("y")) {
 			searchDir();
-		}else if (choice1.equalsIgnoreCase("n")) { // not sure about returning to adminlogin
-			empLogin();
+		}else if (choice1.equalsIgnoreCase("n")) { 
+			Employee.employeeLogin();
 		}else {
 			System.out.println("Returning to main menu");
 			MainMenu.mainMenu();
 		}
 	}
 
-	@SuppressWarnings("unlikely-arg-type")
 	protected static void adminDelete() {
 		System.out.println("Enter Account Holder's first name:");
 		String firstName=scan.nextLine();
@@ -85,14 +84,18 @@ public class Admin extends Employee {
 		System.out.println("Account Found!");
 		System.out.println(a.toString());
 		
-		System.out.println("Would you like to delete this account? y/n");
+		System.out.println("Would you like to delete this account?");
 		String choice=scan.nextLine();
-		if(choice.equalsIgnoreCase("y")) {
-			Roster.customerList.remove(a); ////arrayList*********
+		Roster.customerList.remove(a);
+		if(choice.equalsIgnoreCase("y")) {////arrayList********* remove
 			System.out.println("Account has been deleted. Customer will be notified.");
-		}else if(choice.equalsIgnoreCase("n")) {
-			
+		}else if (choice.equals("n")) {
+			Employee.empLogin();
+		}else {
+			System.out.println("Returning to the main menu");
+			MainMenu.mainMenu();
 		}
+		
 		System.out.println("Would you like to review another account? (y/n)");
 		String choice1=scan.nextLine();
 		if(choice1.equalsIgnoreCase("y")) {

@@ -80,7 +80,7 @@ public class Employee extends Customer{
 		String firstName=scan.nextLine();
 		Customer a= Roster.findCustomerByName(firstName);
 		System.out.print("Account Found!");
-		System.out.println(a.toString());
+		System.out.println(a.toString() + getBalance());
 		
 		System.out.println("Would you like to search for another account? (y/n)");
 		String choice=scan.nextLine();
@@ -99,23 +99,22 @@ public class Employee extends Customer{
 	protected static void approval() {
 		System.out.println("Enter Account Holder's first name:");
 		String firstName=scan.nextLine();
-	//	List<Customer> a= Roster.customerList; ********
 		System.out.println("Account Found!");
 		System.out.println(Roster.customerList);
 		System.out.println("This account is pendng approval:");
 		String choice=scan.nextLine();
 		boolean approved = true;
-		if(choice.equals(approved)) {
+		if(choice.equals(choice)) {
 			System.out.println("Account has been approved. Customer will be notified.");
 		}else {
 			System.out.println("Account has been denied. Customer will be notified.");
 		}
-		System.out.println("Would you like to search for another account? (y/n)");
+		System.out.println("Would you like to approve for another account? (y/n)");
 		String choice1=scan.nextLine();
 		if(choice1.equalsIgnoreCase("y")) {
-			searchDir();
-		}else if (choice1.equalsIgnoreCase("n")) { // not sure about returning to emplogin
-			empLogin();
+			approval();
+		}else if (choice1.equalsIgnoreCase("n")) { 
+			employeeLogin();
 		}else {
 			System.out.println("Returning to main menu");
 			MainMenu.mainMenu();

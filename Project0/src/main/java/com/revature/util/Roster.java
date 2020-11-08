@@ -43,13 +43,4 @@ public class Roster {
 		return null;
 	}
 	
-//	public static Customer findCustomerByBalance(double inputBalance) {
-//		for(int i=0; i < customerList.size(); i++) {
-//			double balance= customerList.get(i).getBalance();
-//			if(inputBalance.) {
-//				return customerList.get(i);
-//			}
-//		}
-//		return null;
-//	}
 }

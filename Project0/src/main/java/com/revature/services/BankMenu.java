@@ -15,7 +15,8 @@ public class BankMenu extends Customer {
 
 	static Scanner scan= new Scanner(System.in);
 	static {FileStuff.readCustomerFile();}
-	private double balance;
+	private static double balance;
+	
 	
 	
 	public static void depositMenu() {
@@ -46,7 +47,7 @@ public class BankMenu extends Customer {
 		System.out.println("Enter Withdrawal Amount: ");
 		String choice = scan.nextLine();
 		double amount = scan.nextDouble();
-		if(amount >=0 && balance > amount) {
+		if(amount >=0 && balance > amount) { ////////figure out how to connect to cust. maybe transaction arraylist
 			balance -=amount;
 			System.out.println("Withdrawl Successful!");
 		}else {
@@ -81,7 +82,7 @@ public class BankMenu extends Customer {
 			System.out.println("Insufficient Funds!");
 		}
 		
-		System.out.println("Would you like to make another withdrawal? (y/n)");
+		System.out.println("Would you like to make another transfer? (y/n)");
 		String choice1 = scan.next();
 		if (choice1.equalsIgnoreCase("y")) {
 			withdrawMenu();
@@ -94,23 +95,17 @@ public class BankMenu extends Customer {
 		}
 	}
 
-	public BankMenu() {
-		super();
+//	public BankMenu() {
+//		super();
+//	}
+//
+//	public BankMenu(String firstName, String lastName, String address, String username, String password,
+//			double balance) {
+//		super(firstName, lastName, address, username, password, balance);
+//	}
 
-	}
+	
 
-	public BankMenu(String firstName, String lastName, String address, String username, String password) {
-		super(firstName, lastName, address, username, password);
-	}
-
-	public double getBalance() {
-		return balance;
-	}
-
-	@SuppressWarnings("static-access")
-	public void setBalance(double balance) {
-		this.balance = balance;
-	}
 
 	
 }
