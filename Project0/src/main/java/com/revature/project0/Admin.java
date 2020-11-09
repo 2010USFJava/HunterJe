@@ -36,7 +36,7 @@ public class Admin extends Employee {
 			Employee.searchDir();
 			break;
 		case "A":
-			adminApproval();
+			Employee.approval();
 			break;
 		case "R":
 			adminDelete();
@@ -50,33 +50,7 @@ public class Admin extends Employee {
 		}
 	}
 	
-	@SuppressWarnings("unlikely-arg-type")
-	protected static void adminApproval() {
-		System.out.println("Enter Account Holder's first name:");
-		String firstName=scan.nextLine();
-		Customer a= Roster.findCustomerByName(firstName);
-		System.out.println("Account Found!");
-		System.out.println(Roster.findCustomerByName(firstName));
-		System.out.println("This account is pendng approval:");
-		String choice=scan.nextLine();
-		boolean approved = true;
-		if(choice.equals(choice)) {
-			System.out.println("Account has been approved. Customer will be notified.");
-		}else {
-			System.out.println("Account has been denied. Customer will be notified.");
-		}
-		System.out.println("Would you like to search for another account? (y/n)");
-		String choice1=scan.nextLine();
-		if(choice1.equalsIgnoreCase("y")) {
-			searchDir();
-		}else if (choice1.equalsIgnoreCase("n")) { 
-			Employee.employeeLogin();
-		}else {
-			System.out.println("Returning to main menu");
-			MainMenu.mainMenu();
-		}
-	}
-
+	
 	protected static void adminDelete() {
 		System.out.println("Enter Account Holder's first name:");
 		String firstName=scan.nextLine();
@@ -112,7 +86,6 @@ public class Admin extends Employee {
 	
 	public Admin() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 }

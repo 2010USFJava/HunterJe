@@ -173,3 +173,17 @@
 [INFO ] 2020-11-08 09:28:34.447 [main] LogThis -  Your new balance is 500.0
 [INFO ] 2020-11-08 09:28:40.509 [main] LogThis - Current Account balance is 350.0
 [INFO ] 2020-11-08 09:28:40.512 [main] LogThis - Savings Account balance is 150.0
+[INFO ] 2020-11-08 21:25:42.637 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 21:27:53.787 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 21:30:06.260 [main] LogThis - Bart, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 21:46:41.939 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 21:46:51.388 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 21:47:00.461 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 21:47:13.011 [main] LogThis -  Your new balance is 350.0
+[INFO ] 2020-11-08 21:47:22.112 [main] LogThis - Current Account balance is 150.0
+[INFO ] 2020-11-08 21:47:22.116 [main] LogThis - Savings Account balance is 200.0
+[INFO ] 2020-11-08 21:57:03.406 [main] LogThis - Charles, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 22:12:58.012 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 22:13:52.692 [main] LogThis -  Your new balance is 400.0
+[INFO ] 2020-11-08 22:14:09.703 [main] LogThis - Current Account balance is 200.0
+[INFO ] 2020-11-08 22:14:09.706 [main] LogThis - Savings Account balance is 200.0

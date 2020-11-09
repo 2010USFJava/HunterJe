@@ -80,7 +80,7 @@ public class Employee extends Customer{
 		String firstName=scan.nextLine();
 		Customer a= Roster.findCustomerByName(firstName);
 		System.out.print("Account Found!");
-		System.out.println(a.toString() + getBalance());
+		System.out.println(a.toString());
 		
 		System.out.println("Would you like to search for another account? (y/n)");
 		String choice=scan.nextLine();
@@ -104,7 +104,8 @@ public class Employee extends Customer{
 		System.out.println("This account is pendng approval:");
 		String choice=scan.nextLine();
 		boolean approved = true;
-		if(choice.equals(choice)) {
+		boolean denied = false;
+		if(choice.equalsIgnoreCase("approved")) {
 			System.out.println("Account has been approved. Customer will be notified.");
 		}else {
 			System.out.println("Account has been denied. Customer will be notified.");
