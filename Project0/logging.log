@@ -187,3 +187,12 @@
 [INFO ] 2020-11-08 22:13:52.692 [main] LogThis -  Your new balance is 400.0
 [INFO ] 2020-11-08 22:14:09.703 [main] LogThis - Current Account balance is 200.0
 [INFO ] 2020-11-08 22:14:09.706 [main] LogThis - Savings Account balance is 200.0
+[INFO ] 2020-11-08 22:31:59.280 [main] LogThis - Jasmine, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 22:32:51.477 [main] LogThis -  Your new balance is 200.0
+[INFO ] 2020-11-09 06:45:10.579 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-09 07:00:52.288 [main] LogThis - Daeshen, account created successfully. Awaiting approval!
+[INFO ] 2020-11-09 07:01:38.588 [main] LogThis -  Your new balance is 200.0
+[INFO ] 2020-11-09 07:02:08.433 [main] LogThis -  Your new balance is 150.0
+[INFO ] 2020-11-09 07:02:23.383 [main] LogThis - Current Account balance is 100.0
+[INFO ] 2020-11-09 07:02:23.388 [main] LogThis - Savings Account balance is 50.0
+[INFO ] 2020-11-09 07:03:08.019 [main] LogThis -  Your new balance is 300.0

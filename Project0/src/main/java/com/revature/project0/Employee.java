@@ -100,7 +100,7 @@ public class Employee extends Customer{
 		System.out.println("Enter Account Holder's first name:");
 		String firstName=scan.nextLine();
 		System.out.println("Account Found!");
-		System.out.println(Roster.customerList);
+		System.out.println(Roster.customerList.toString());
 		System.out.println("This account is pendng approval:");
 		String choice=scan.nextLine();
 		boolean approved = true;
@@ -115,7 +115,7 @@ public class Employee extends Customer{
 		if(choice1.equalsIgnoreCase("y")) {
 			approval();
 		}else if (choice1.equalsIgnoreCase("n")) { 
-			employeeLogin();
+			Employee.employeeLogin();
 		}else {
 			System.out.println("Returning to main menu");
 			MainMenu.mainMenu();
