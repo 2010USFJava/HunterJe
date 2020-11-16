@@ -1,0 +1,209 @@
+[INFO ] 2020-10-31 10:58:12.904 [main] LogThis - null logged in successful!
+[INFO ] 2020-10-31 11:05:12.028 [main] LogThis - Jennifer logged in successfully!
+[INFO ] 2020-10-31 11:05:12.036 [main] LogThis - Makiah logged in successfully!
+[INFO ] 2020-10-31 11:05:15.978 [main] LogThis - Jennifer logged in successfully!
+[INFO ] 2020-10-31 11:05:15.984 [main] LogThis - Makiah logged in successfully!
+[INFO ] 2020-10-31 11:05:49.778 [main] LogThis - Jennifer logged in successfully!
+[INFO ] 2020-10-31 11:05:49.783 [main] LogThis - Makiah logged in successfully!
+[INFO ] 2020-10-31 11:06:01.907 [main] LogThis - Jennifer logged in successfully!
+[INFO ] 2020-10-31 11:06:01.917 [main] LogThis - Makiah logged in successfully!
+[INFO ] 2020-10-31 11:06:39.293 [main] LogThis - Jennifer logged in successfully!
+[INFO ] 2020-10-31 11:06:39.309 [main] LogThis - Makiah logged in successfully!
+[INFO ] 2020-10-31 11:11:54.941 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:12:13.651 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:13:23.073 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:13:56.985 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:15:16.913 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:15:40.888 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:17:02.267 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:17:44.252 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:18:50.846 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:19:32.774 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:20:29.244 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:21:38.366 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:23:36.025 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:26:13.323 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:34:03.203 [main] LogThis - Jennifer logged in successfully!
+[INFO ] 2020-10-31 11:34:39.027 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:40:53.540 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:42:46.291 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 11:47:01.201 [main] LogThis - null registered successfully!
+[INFO ] 2020-10-31 11:50:38.702 [main] LogThis - null registered successfully!
+[INFO ] 2020-10-31 11:57:57.669 [main] LogThis - null, account awaiting approval.
+[INFO ] 2020-10-31 12:07:56.006 [main] LogThis - null logged in successfully!
+[INFO ] 2020-10-31 12:08:46.986 [main] LogThis - null registered successfully!
+[INFO ] 2020-10-31 14:56:05.540 [main] LogThis - dzj938 logged in successfully!
+[INFO ] 2020-10-31 14:56:05.552 [main] LogThis - dzj938 was added to customer database.
+[INFO ] 2020-10-31 14:57:37.235 [main] LogThis - zu92 logged in successfully!
+[INFO ] 2020-10-31 14:57:37.240 [main] LogThis - zu92 was added to customer database.
+[INFO ] 2020-10-31 15:21:26.925 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 15:27:55.223 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 15:30:01.311 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 15:30:53.758 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 15:32:49.638 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 15:32:56.356 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 15:33:48.423 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 15:33:52.047 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 15:56:28.888 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 15:59:26.902 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 15:59:41.522 [main] LogThis -  Your new balance is 
+[INFO ] 2020-10-31 16:02:08.580 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-04 21:40:57.291 [main] LogThis - Jennifer logged in successfully!
+[INFO ] 2020-11-04 21:40:57.300 [main] LogThis - Jennifer was added to customer database.
+[INFO ] 2020-11-04 22:51:20.636 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-04 22:51:55.294 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-04 22:52:04.997 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-04 22:52:30.285 [main] LogThis -  Your new balance is 50.0
+[INFO ] 2020-11-04 22:53:03.382 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-04 22:53:10.165 [main] LogThis -  Your new balance is 50.0
+[INFO ] 2020-11-04 22:57:19.758 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-04 22:57:28.154 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-05 10:26:06.984 [main] LogThis - Jennifer logged in successfully!
+[INFO ] 2020-11-05 10:27:39.814 [main] LogThis - Dezsjeun logged in successfully!
+[INFO ] 2020-11-05 10:31:44.465 [main] LogThis - Dezsjeun logged in successfully!
+[INFO ] 2020-11-05 10:37:33.863 [main] LogThis - Dezsjeun logged in successfully!
+[INFO ] 2020-11-05 10:40:56.049 [main] LogThis - Dezsjeun logged in successfully!
+[INFO ] 2020-11-05 10:43:21.647 [main] LogThis - Dezsjeun, account created successfully, awaiting approval!"
+[INFO ] 2020-11-05 10:47:54.043 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 10:52:03.436 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 10:53:59.203 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 10:55:48.429 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 10:59:11.853 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 12:19:09.354 [main] LogThis - Dezsjeun, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 12:20:12.236 [main] LogThis - Dezsjeun, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 12:56:46.044 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 12:58:32.780 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 16:31:27.803 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 16:36:43.316 [main] LogThis - Dezsjeun, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 16:40:04.795 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 16:46:40.622 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 16:48:00.873 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 17:48:14.517 [main] LogThis - James, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 17:48:14.528 [main] LogThis - James, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 18:06:32.338 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 18:09:12.911 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 19:02:56.817 [main] LogThis - Jasmine, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 19:04:18.331 [main] LogThis - Lisa, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 19:06:20.468 [main] LogThis - Lisa, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 19:07:51.058 [main] LogThis - Bart, account created successfully. Awaiting approval!
+[INFO ] 2020-11-05 19:09:38.741 [main] LogThis - Meg, account created successfully. Awaiting approval!
+[INFO ] 2020-11-06 14:41:11.954 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-06 14:44:18.731 [main] LogThis - Lisa, account created successfully. Awaiting approval!
+[INFO ] 2020-11-06 15:08:19.584 [main] LogThis - Lisa, account created successfully. Awaiting approval!
+[INFO ] 2020-11-06 15:08:34.263 [main] LogThis -  Your new balance is 750.0
+[INFO ] 2020-11-06 15:14:57.681 [main] LogThis - Meg, account created successfully. Awaiting approval!
+[INFO ] 2020-11-06 15:15:45.914 [main] LogThis - Meg, account created successfully. Awaiting approval!
+[INFO ] 2020-11-06 15:15:56.930 [main] LogThis -  Your new balance is 600.0
+[INFO ] 2020-11-06 15:16:09.117 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-06 15:16:16.474 [main] LogThis - Current Account balance is 300.0
+[INFO ] 2020-11-06 15:16:16.474 [main] LogThis - Savings Account balance is 200.0
+[INFO ] 2020-11-06 15:16:16.474 [main] LogThis -  Your new balance is 300.0
+[INFO ] 2020-11-06 15:45:57.619 [main] LogThis - James, account created successfully. Awaiting approval!
+[INFO ] 2020-11-06 15:47:27.667 [main] LogThis -  Your new balance is 300.0
+[INFO ] 2020-11-06 15:47:36.818 [main] LogThis - Current Account balance is 200.0
+[INFO ] 2020-11-06 15:47:36.818 [main] LogThis - Savings Account balance is 100.0
+[INFO ] 2020-11-06 15:47:36.818 [main] LogThis -  Your new balance is 200.0
+[INFO ] 2020-11-06 15:54:32.357 [main] LogThis - Bart, account created successfully. Awaiting approval!
+[INFO ] 2020-11-06 15:59:49.976 [main] LogThis - Sue, account created successfully. Awaiting approval!
+[INFO ] 2020-11-06 16:25:55.392 [main] LogThis - David, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 10:06:39.842 [main] LogThis - Jasmine, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 10:23:57.819 [main] LogThis - David, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 10:27:17.575 [main] LogThis - Jasmine, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 10:57:35.483 [main] LogThis - Levy, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 10:59:06.690 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 11:00:39.939 [main] LogThis - Dezsjeun, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 11:08:35.832 [main] LogThis - Lester, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 11:47:03.083 [main] LogThis - Leslie, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 12:11:44.028 [main] LogThis - Brittany, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 12:32:50.245 [main] LogThis - Daeshen, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 12:37:45.050 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 12:48:08.638 [main] LogThis - James, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 13:58:47.510 [main] LogThis - Ashlee, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 14:17:14.371 [main] LogThis - Charles, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 14:53:22.296 [main] LogThis - Meg, account created successfully. Awaiting approval!
+[INFO ] 2020-11-07 16:32:44.361 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-07 16:33:54.682 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-07 16:45:28.234 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-07 16:45:45.966 [main] LogThis -  Your new balance is 500.2
+[INFO ] 2020-11-07 16:53:41.298 [main] LogThis -  Your new balance is 250.0
+[INFO ] 2020-11-07 16:54:16.180 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-07 17:46:59.502 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-07 18:53:10.764 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-07 18:53:17.761 [main] LogThis -  Your new balance is 1000.0
+[INFO ] 2020-11-07 18:53:43.634 [main] LogThis -  Your new balance is 1.0
+[INFO ] 2020-11-08 08:26:18.045 [main] LogThis -  Your new balance is 300.0
+[INFO ] 2020-11-08 08:28:12.638 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 08:57:17.003 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 08:57:23.532 [main] LogThis -  Your new balance is 300.0
+[INFO ] 2020-11-08 08:59:26.150 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 08:59:32.387 [main] LogThis -  Your new balance is 3.0
+[INFO ] 2020-11-08 09:00:56.814 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:01:05.561 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:01:14.143 [main] LogThis -  Your new balance is 100.0
+[INFO ] 2020-11-08 09:01:20.427 [main] LogThis -  Your new balance is 50.0
+[INFO ] 2020-11-08 09:01:38.944 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:01:50.687 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:02:12.340 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 09:02:35.872 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:02:47.239 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:02:50.406 [main] LogThis -  Your new balance is 100.0
+[INFO ] 2020-11-08 09:02:56.668 [main] LogThis -  Your new balance is 50.0
+[INFO ] 2020-11-08 09:03:00.001 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:03:10.488 [main] LogThis -  Your new balance is 47.0
+[INFO ] 2020-11-08 09:03:49.705 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:04:03.471 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:04:16.167 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:04:22.692 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 09:05:11.282 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:05:20.747 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 09:06:47.771 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:06:59.732 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 09:07:15.282 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 09:07:28.595 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:07:36.706 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 09:08:17.721 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:08:24.410 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 09:09:47.646 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:09:55.419 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:09:59.413 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 09:10:36.380 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:10:40.948 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 09:16:35.826 [main] LogThis - Jennifer, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:20:19.646 [main] LogThis - Meg, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 09:28:34.447 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 09:28:40.509 [main] LogThis - Current Account balance is 350.0
+[INFO ] 2020-11-08 09:28:40.512 [main] LogThis - Savings Account balance is 150.0
+[INFO ] 2020-11-08 21:25:42.637 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 21:27:53.787 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 21:30:06.260 [main] LogThis - Bart, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 21:46:41.939 [main] LogThis -  Your new balance is 0.0
+[INFO ] 2020-11-08 21:46:51.388 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 21:47:00.461 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 21:47:13.011 [main] LogThis -  Your new balance is 350.0
+[INFO ] 2020-11-08 21:47:22.112 [main] LogThis - Current Account balance is 150.0
+[INFO ] 2020-11-08 21:47:22.116 [main] LogThis - Savings Account balance is 200.0
+[INFO ] 2020-11-08 21:57:03.406 [main] LogThis - Charles, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 22:12:58.012 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-08 22:13:52.692 [main] LogThis -  Your new balance is 400.0
+[INFO ] 2020-11-08 22:14:09.703 [main] LogThis - Current Account balance is 200.0
+[INFO ] 2020-11-08 22:14:09.706 [main] LogThis - Savings Account balance is 200.0
+[INFO ] 2020-11-08 22:31:59.280 [main] LogThis - Jasmine, account created successfully. Awaiting approval!
+[INFO ] 2020-11-08 22:32:51.477 [main] LogThis -  Your new balance is 200.0
+[INFO ] 2020-11-09 06:45:10.579 [main] LogThis -  Your new balance is 500.0
+[INFO ] 2020-11-09 07:00:52.288 [main] LogThis - Daeshen, account created successfully. Awaiting approval!
+[INFO ] 2020-11-09 07:01:38.588 [main] LogThis -  Your new balance is 200.0
+[INFO ] 2020-11-09 07:02:08.433 [main] LogThis -  Your new balance is 150.0
+[INFO ] 2020-11-09 07:02:23.383 [main] LogThis - Current Account balance is 100.0
+[INFO ] 2020-11-09 07:02:23.388 [main] LogThis - Savings Account balance is 50.0
+[INFO ] 2020-11-09 07:03:08.019 [main] LogThis -  Your new balance is 300.0
+[INFO ] 2020-11-09 07:12:07.350 [main] LogThis - Jasmine, account created successfully. Awaiting approval!
+[INFO ] 2020-11-09 07:12:58.055 [main] LogThis -  Your new balance is 300.0
+[INFO ] 2020-11-09 07:13:10.628 [main] LogThis -  Your new balance is 400.0
+[INFO ] 2020-11-09 07:13:20.589 [main] LogThis -  Your new balance is 300.0
+[INFO ] 2020-11-09 07:13:38.598 [main] LogThis - Current Account balance is 150.0
+[INFO ] 2020-11-09 07:13:38.602 [main] LogThis - Savings Account balance is 150.0
+[INFO ] 2020-11-09 11:11:44.369 [main] LogThis - David, account created successfully. Awaiting approval!
+[INFO ] 2020-11-09 11:12:51.992 [main] LogThis -  Your new balance is 200.0
+[INFO ] 2020-11-09 11:13:08.251 [main] LogThis -  Your new balance is 150.0
+[INFO ] 2020-11-09 11:13:21.319 [main] LogThis - Current Account balance is 100.0
+[INFO ] 2020-11-09 11:13:21.326 [main] LogThis - Savings Account balance is 50.0
